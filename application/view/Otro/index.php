@@ -63,35 +63,45 @@
             <div class="row text-center">
                 <form role="form" method="POST">
                     <div class="row">
-                      <div class="form-group" style="width: 20%; margin: 0px auto;">
-                        <label for="email">Nombre:</label>
-                        <input type="text" class="form-control" id="name" name="txtnombre" placeholder="Ingrese Nombre">
+                        <div class="col-xs-12 col-md-4">
+                          <div class="form-group">
+                            <label for="email">Nombre:</label>
+                            <input type="text" class="form-control" id="name" name="txtnombre" placeholder="Ingrese Nombre">
+                          </div>
+                        </div>
+                      <div class="col-xs-12 col-md-4">
+                          <div class="form-group">
+                            <label for="pwd">Identificación:</label>
+                            <input type="text" class="form-control" id="identi" name="txtidentificacion" placeholder="Ingrese Identificación">
+                          </div>
                       </div>
-                      <p></p>
-                      <div class="form-group" style="width: 20%; margin: 0px auto">
-                        <label for="pwd">Identificación:</label>
-                        <input type="text" class="form-control" id="identi" name="txtidentificacion" placeholder="Ingrese Identificación">
-                      </div>
-                      <p></p>
-                      <div class="form-group" style="width: 20%; margin: 0px auto">
-                        <label for="pwd">Profesión:</label>
-                        <input type="text" class="form-control" id="profesion" name="txtprofesion" placeholder="Ingrese Profesión">
+                      <div class="col-xs-12 col-md-4">
+                          <div class="form-group">
+                            <label for="pwd">Profesión:</label>
+                            <input type="text" class="form-control" id="profesion" name="txtprofesion" placeholder="Ingrese Profesión">
+                          </div>
                       </div>
                     </div>
                       <p></p>
-                      <div class="form-group" style="width: 20%; margin: 0px auto">
-                        <label for="pwd">Cargo:</label>
-                        <input type="text" class="form-control" id="cargo" name="txtcargo" placeholder="Ingrese Cargo">
-                      </div>
-                      <p></p>
-                      <div class="form-group" style="width: 20%; margin: 0px auto">
-                        <label for="pwd">Dirección:</label>
-                        <input type="text" class="form-control" id="direccion" name="txtdireccion" placeholder="Ingrese Dirección">
-                      </div>
-                      <p></p>
-                      <div class="form-group" style="width: 20%; margin: 0px auto">
-                        <label for="pwd">Salario:</label>
-                        <input type="text" class="form-control" id="salario" name="txtsalario" placeholder="Ingrese Salario">
+                      <div class="row">
+                        <div class="col-xs-12 col-md-4">
+                          <div class="form-group">
+                            <label for="pwd">Cargo:</label>
+                            <input type="text" class="form-control" id="cargo" name="txtcargo" placeholder="Ingrese Cargo">
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                          <div class="form-group">
+                            <label for="pwd">Dirección:</label>
+                            <input type="text" class="form-control" id="direccion" name="txtdireccion" placeholder="Ingrese Dirección">
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                          <div class="form-group">
+                            <label for="pwd">Salario:</label>
+                            <input type="text" class="form-control" id="salario" name="txtsalario" placeholder="Ingrese Salario">
+                          </div>
+                        </div>
                       </div>
                       <p></p>
                       <div class="form-group" style="width: 20%; margin: 0px auto">
